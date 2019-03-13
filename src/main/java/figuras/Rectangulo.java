@@ -1,6 +1,8 @@
 package figuras;
 
-public class Rectangulo extends FiguraGeometrica {
+import draw.Drawable;
+
+public class Rectangulo extends FiguraGeometrica implements Drawable {
 
     // Atributos
 

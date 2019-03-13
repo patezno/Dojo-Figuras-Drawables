@@ -1,6 +1,8 @@
 package figuras;
 
-public class Cuadrado extends FiguraGeometrica{
+import draw.Drawable;
+
+public class Cuadrado extends FiguraGeometrica implements Drawable {
 
     // Atributos
 

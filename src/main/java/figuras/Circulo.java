@@ -1,6 +1,8 @@
 package figuras;
 
-public class Circulo extends FiguraGeometrica {
+import draw.Drawable;
+
+public class Circulo extends FiguraGeometrica implements Drawable {
 
     // Atributos
 

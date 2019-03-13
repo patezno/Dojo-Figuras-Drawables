@@ -1,6 +1,8 @@
 package figuras;
 
-public class Elipse extends FiguraGeometrica {
+import draw.Drawable;
+
+public class Elipse extends FiguraGeometrica implements Drawable {
 
     // Atributos
 
