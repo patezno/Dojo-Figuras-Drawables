@@ -57,6 +57,6 @@ public class Elipse extends FiguraGeometrica implements Drawable {
 
     @Override
     public void draw() {
-        System.out.println("Esto es un: " + this.getNombre());
+        System.out.println("Esto es una: " + this.getNombre());
     }
 }
