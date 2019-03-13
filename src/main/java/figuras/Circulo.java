@@ -44,4 +44,13 @@ public class Circulo extends FiguraGeometrica implements Drawable {
         return PI * Math.pow(getRadio(), 2);
     }
 
+    @Override
+    public void draw() {
+        System.out.println("Esto es un: " + this.getNombre());
+    }
+
+    @Override
+    public void applyTheme() {
+        System.out.println("Aplicado un tema a: " + this.getNombre());
+    }
 }

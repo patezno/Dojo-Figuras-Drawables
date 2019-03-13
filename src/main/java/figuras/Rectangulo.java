@@ -54,4 +54,13 @@ public class Rectangulo extends FiguraGeometrica implements Drawable {
         return getBase() * getAltura();
     }
 
+    @Override
+    public void draw() {
+        System.out.println("Esto es un: " + this.getNombre());
+    }
+
+    @Override
+    public void applyTheme() {
+        System.out.println("Aplicado un tema a: " + this.getNombre());
+    }
 }

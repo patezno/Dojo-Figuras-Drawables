@@ -55,4 +55,8 @@ public class Elipse extends FiguraGeometrica implements Drawable {
         return PI * getSemiEjeMayor() * getSemiEjeMenor();
     }
 
+    @Override
+    public void draw() {
+        System.out.println("Esto es un: " + this.getNombre());
+    }
 }

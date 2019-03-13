@@ -43,4 +43,13 @@ public class Cuadrado extends FiguraGeometrica implements Drawable {
         return Math.pow(getLado(), 2);
     }
 
+    @Override
+    public void draw() {
+        System.out.println("Esto es un: " + this.getNombre());
+    }
+
+    @Override
+    public void applyTheme() {
+        System.out.println("Aplicado un tema a: " + this.getNombre());
+    }
 }

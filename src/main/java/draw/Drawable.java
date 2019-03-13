@@ -1,6 +1,10 @@
 package draw;
 
 public interface Drawable {
+
     void draw();
-    void applyTheme();
+
+    default void applyTheme() {
+        throw new UnsupportedOperationException("Operacion applyTheme sin implementar");
+    }
 }
